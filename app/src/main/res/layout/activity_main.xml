@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nzf.turbozakat.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/nzf_title_logo" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        style="@style/ButtonStyle"
+        android:layout_above="@+id/btnLearn"
+        android:text="@string/calculate"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLearn"
+        style="@style/ButtonStyle"
+        android:layout_above="@+id/btnContact"
+        android:text="@string/learn"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnContact"
+        style="@style/ButtonStyle"
+        android:layout_above="@+id/btnSettings"
+        android:text="@string/contact"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        style="@style/ButtonStyle"
+        android:text="@string/settings"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Turbo Zakat</string>
+    <string name="calculate">Calculate Zakat</string>
+    <string name="contact">Contact Us</string>
+    <string name="quick_check">Quick Check</string>
+    <string name="select_asset">Select Asset</string>
+    <string name="email_us">Email Us</string>
+    <string name="call_us">Call Us</string>
+    <string name="visit_us_online">Visit us online</string>
+    <string name="not_done">Add another asset</string>
+    <string name="done">Done</string>
+    <string name="summary">Summary</string>
+    <string name="close">Close</string>
+    <string name="select_assets">Select Assets</string>
+    <string name="get_started">Get Started</string>
+    <string name="settings">Rates &amp; Zakat Fiqh Opinions</string>
+    <string name="gold_opinion_title">Opinion on Gold/Silver</string>
+    <string name="gold_opinion_1">1. Zakat must be paid on all jewelery</string>
+    <string name="gold_opinion_2">2. Zakat is only paid on jewelery that is not being used</string>
+    <string name="property_opinion_title">Opinion on Properties</string>
+    <string name="property_opinion_1">1. Zakat is paid on the value of the property after being sold</string>
+    <string name="property_opinion_2">2. Zakat is paid on the retail value of the property</string>
+    <string name="shares_opinion_title">Opinion on Shares/Investments</string>
+    <string name="shares_opinion_1">1. Shares are treated as if they are cash</string>
+    <string name="shares_opinion_2">2. Shares are treated as a passive investment</string>
+    <string name="bus_inv_opinion_title">Opinion on Business Investments</string>
+    <string name="bus_inv_opinion_1">1. Zakat on inventory is applied based on wholesale value</string>
+    <string name="bus_inv_opinion_2">2. Zakat on inventory is applied based on retail value</string>
+    <string name="gold_nisab_1">1. Silver</string>
+    <string name="nisab_option_2">2. Gold</string>
+    <string name="preference_file_key">f3daAd3FE2ws2</string>
+    <string name="donate_now">Donate Now</string>
+    <string name="learn">Video Tutorials</string>
+    <string name="learn_about_zakat">Learn About Zakat</string>
+    <string name="nisab_option">Calculate nisab based on</string>
+    <string name="rates_titles">Today\'s Rates</string>
+</resources>

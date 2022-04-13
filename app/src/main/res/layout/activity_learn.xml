@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/learn_about_zakat"
+        android:textSize="@dimen/title_text_size" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#a8bababa" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnHowToCalcZakat"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to Calculate Zakat?" />
+
+            <Button
+                android:id="@+id/btnWhatIsZakat"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="What is Zakat?" />
+
+            <Button
+                android:id="@+id/btnWhatIsNisab"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="What is Nisab?" />
+
+            <Button
+                android:id="@+id/btnZakatOnIndividualOrWealth"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="Zakat on individual or wealth?" />
+
+            <Button
+                android:id="@+id/btnHowToEstablishZakatYear"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to establish a Zakat year?" />
+
+            <Button
+                android:id="@+id/btnHowToCalcZakatOnProperty"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to calculate Zakat on property?" />
+
+            <Button
+                android:id="@+id/btnHowToCalcZakatOnJewelery"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to calculate Zakat on jewelry?" />
+
+            <Button
+                android:id="@+id/btnIsZakatDueUponJewelry"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="Is Zakat due upon Jewelry?" />
+
+            <Button
+                android:id="@+id/btnHowToCalcZakatOnRRSP"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to calculate Zakat on RESP/RRSP?" />
+
+            <Button
+                android:id="@+id/btnHowToCalcZakatOnStocks"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="Zakat on debts and trading stocks?" />
+
+            <Button
+                android:id="@+id/btnHowToCalcZakatOnInvestments"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="21dp"
+                android:drawableLeft="@drawable/ic_play"
+                android:onClick="onClick"
+                android:text="How to calculate Zakat on investments?" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

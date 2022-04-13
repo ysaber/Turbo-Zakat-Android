@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_assets"
+        android:textSize="@dimen/title_text_size"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="@android:color/transparent"
+        android:layout_weight="1"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/getStartedBtn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:text="@string/get_started"/>-->
+
+
+    <Button
+        android:id="@+id/getStartedBtn"
+        style="@style/ButtonStyle"
+        android:layout_above="@+id/btnContact"
+        android:text="@string/get_started"
+        android:layout_margin="8dp" />
+
+</LinearLayout>

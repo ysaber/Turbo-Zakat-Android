@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Zakat Calculation"
+            android:textSize="@dimen/title_text_size" />
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:progress="100" />
+
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="You owe $25 CAD on this asset"
+            android:textSize="@dimen/title_text_size" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Please Note: If you don’t add more in this category now you will not be able to return back to this asset type."
+            android:textSize="@dimen/title_text_size" />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/notDone"
+        style="@style/ButtonStyle"
+        android:text="@string/not_done"
+        android:layout_marginRight="8dp"
+        android:layout_above="@+id/done"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/cardNotDone"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_above="@+id/cardDone"-->
+            <!--android:layout_marginBottom="21dp"-->
+            <!--android:layout_centerHorizontal="true">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textNotDone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="#97f1f1f1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/not_done" />-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+    <Button
+        android:id="@+id/done"
+        style="@style/ButtonStyle"
+        android:text="@string/done"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp" />
+
+
+    <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/cardDone"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="21dp"-->
+            <!--android:layout_centerHorizontal="true">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textDone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="#97f1f1f1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/done" />-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>

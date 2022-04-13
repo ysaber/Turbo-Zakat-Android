@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/settings"
+        android:textSize="@dimen/title_text_size" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#a8bababa"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/nisab_option"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <RelativeLayout
+                android:id="@+id/nisab_opinion_1_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nisab_opinion_1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/gold_nisab_1"
+                    android:layout_toLeftOf="@+id/nisab_opinion_1_checkbox"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/nisab_opinion_1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/nisab_opinion_2_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/nisab_opinion_2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/nisab_option_2"
+                    android:textColor="#ab595959"
+                    android:layout_toLeftOf="@+id/nisab_opinion_2_checkbox"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/nisab_opinion_2_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/gold_opinion_title"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <RelativeLayout
+                android:id="@+id/gold_silver_opinion_1_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/gold_silver_opinion_1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/gold_opinion_1"
+                    android:layout_toLeftOf="@+id/gold_silver_opinion_1_checkbox"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/gold_silver_opinion_1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/gold_silver_opinion_2_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/gold_silver_opinion_2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/gold_opinion_2"
+                    android:textColor="#ab595959"
+                    android:layout_toLeftOf="@+id/gold_silver_opinion_2_checkbox"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/gold_silver_opinion_2_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/property_opinion_title"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <RelativeLayout
+                android:id="@+id/property_opinion_1_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/property_opinion_1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/property_opinion_1"
+                    android:layout_toLeftOf="@+id/property_opinion_1_checkbox"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/property_opinion_1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/property_opinion_2_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/property_opinion_2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toLeftOf="@+id/property_opinion_2_checkbox"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/property_opinion_2"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/property_opinion_2_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+
+
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:background="#a8bababa"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginLeft="16dp" />-->
+
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:text="@string/shares_opinion_title"-->
+                <!--android:textColor="#595959"-->
+                <!--android:textSize="16dp"-->
+                <!--android:textStyle="" />-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/shares_opinion_1_container"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/shares_opinion_1_text"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginLeft="32dp"-->
+                    <!--android:text="@string/shares_opinion_1"-->
+                    <!--android:layout_toLeftOf="@+id/shares_opinion_1_checkbox"-->
+                    <!--android:textColor="#ab595959"-->
+                    <!--android:textSize="14dp"-->
+                    <!--android:textStyle="" />-->
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/shares_opinion_1_checkbox"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_margin="8dp" />-->
+
+            <!--</RelativeLayout>-->
+
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/shares_opinion_2_container"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="16dp">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/shares_opinion_2_text"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_toLeftOf="@+id/shares_opinion_2_checkbox"-->
+                    <!--android:layout_marginLeft="32dp"-->
+                    <!--android:text="@string/shares_opinion_2"-->
+                    <!--android:textColor="#ab595959"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:textSize="14dp"-->
+                    <!--android:textStyle="" />-->
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/shares_opinion_2_checkbox"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_margin="8dp" />-->
+
+            <!--</RelativeLayout>-->
+
+
+
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/bus_inv_opinion_title"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <RelativeLayout
+                android:id="@+id/bus_inv_opinion_1_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bus_inv_opinion_1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/bus_inv_opinion_1"
+                    android:layout_toLeftOf="@+id/bus_inv_opinion_1_checkbox"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/bus_inv_opinion_1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/bus_inv_opinion_2_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/bus_inv_opinion_2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toLeftOf="@+id/bus_inv_opinion_2_checkbox"
+                    android:layout_marginLeft="32dp"
+                    android:text="@string/bus_inv_opinion_2"
+                    android:textColor="#ab595959"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <CheckBox
+                    android:id="@+id/bus_inv_opinion_2_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp" />
+
+            </RelativeLayout>
+
+
+
+            <!--Rates-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/rates_titles"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <!--gold-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/rates_gold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="Gold ($CAD/g)"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="$25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="32dp"/>-->
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp" />
+
+
+            <!--silver-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/rates_silver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="Silver ($CAD/g)"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="$25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="32dp"/>-->
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp" />
+
+
+
+            <!--USD-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/rates_usd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="CAD -> USD"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="$25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="32dp"/>-->
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp" />
+
+
+
+            <!--EUR-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/rates_eur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="CAD -> EUR"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="$25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="32dp"/>-->
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a8bababa"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp" />
+
+
+
+            <!--GBP-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/rates_gbp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="CAD -> GBP"
+                    android:textColor="#ab595959"
+                    android:textSize="14dp"
+                    android:textStyle="" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="$25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="32dp"/>-->
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
